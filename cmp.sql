@@ -1,0 +1,10 @@
+CREATE TABLE login (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    u_name VARCHAR(255) NOT NULL,
+    phone_no VARCHAR(10) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    subject VARCHAR(255) NOT NULL,
+    message VARCHAR(255) NOT NULL,
+    ip_address VARCHAR(15) NOT NULL,
+    timestamp TIMESTAMP NOT NULL
+);
